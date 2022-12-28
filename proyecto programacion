@@ -1,0 +1,34 @@
+// Danny Ojeda CI: 31.121.284
+// Trayecto 2-3 porgrama PNF informatica 
+
+
+// el programa utiliza librerias clases  de escaner y lector junto a un bucle while, que lea la cadena de caracteres
+que se ingrese en el codigo para dar como resultado la cantidad de veces que se repite cada caracter dentro de una cadena.  
+
+importar java.util.Scanner;
+public class contadordecaracteres {
+    
+    public static void principal (String[] args) {
+        
+        System.out.println("Bienvenido a mi Programa para contar caracteres.");
+        Escáner lector=nuevo Escáner (System.in);
+        String cadena= "";
+        char [] Arraycadena ;
+        char caracter ;
+        contador int =0;
+         
+        while(lector.hasNextLine()){
+    cadena = lector.nextLine();
+        
+         
+         caracter = Arraycadena [a];
+         for (int i = 0; i < Arraycadena.longitud; i++){
+             if (Arraycadena[i] == caracter) {
+                 contador++;
+             }
+         }
+        }
+        System.out.println("escribe otra palabra");
+    }
+  }
+}
